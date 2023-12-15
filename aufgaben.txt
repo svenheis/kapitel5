@@ -1,0 +1,23 @@
+1.1
+nicht gelöst
+1.2
+nicht gelöst
+2.1
+-Ohne Unterfeld Ausgabe eines Errors
+-Leeres Unterfeld funktioniert nicht, wird nicht gesendet
+2.2
+-ungültiges Unterfeld will bei Eingabe sich selber korrigieren
+-wird gesendet und es wirft ein bad request zurück
+2.3
+query {
+	issueList
+		{
+		id
+		}
+	about
+	}
+
+3.1
+-Es gibt keinen Unterschied
+3.2
+-Nein ausser mit einer console.log() im serialize (wird im command ausgegeben)
